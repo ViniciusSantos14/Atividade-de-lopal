@@ -7,7 +7,7 @@ while (nota >= 0) {
 
     if (nota >= 0 && nota <= 10) {
         somaNotas = somaNotas + nota;
-        quantidadeNotas = quantidadeNotas + 1;
+        quantidadeNotas = quantidadeNotas;
     } else {
         if (nota > 10) {
             alert("Nota invalida!");
